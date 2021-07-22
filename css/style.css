@@ -3,9 +3,9 @@ html, body {
 	position: relative;
 	box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset;
 	color: #fff;
-	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial;
-	background: #665fee;
-	/* background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%); */ /* Provides main gradient background. */
+	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial; /* Controls font preferences. */
+	background: #000032; /* Controls main solid background color */
+	/* background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%); */ /* Controls main gradient background. */
 	overflow-x: hidden
 }
 
