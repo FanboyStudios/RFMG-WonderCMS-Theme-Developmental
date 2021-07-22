@@ -1,11 +1,11 @@
 html, body {
 	height: 100%;
 	position: relative;
-	box-shadow: 0 0 200px rgba(0, 0, 0, 0.27) inset;
+	box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset;
 	color: #fff;
 	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial;
 	background: #665fee;
-	/* background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%); */
+	/* background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%); */ /* Provides main gradient background. */
 	overflow-x: hidden
 }
 
@@ -44,8 +44,8 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 }
 
 .footer {
-	color: #dfdfdf;
-	font-size: 13px;
+	color: #ffb600; /* Controls bottom footer default text color. */
+	font-size: 14px; /* Controls bottom footer default text size. */
 	padding: 20px
 }
 
@@ -54,16 +54,16 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 	min-width: 110%;
 	left: -50px;
 	background-color: #f2f4f9;
-	-webkit-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
+	-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
+	transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	z-index: 1041;
 	color: #212529;
 	position: relative
 }
 
 .resetTextRotation {
-	transform: rotate(0deg) !important;
+	transform: rotate(0deg) !important; /* Controls bottom omnipresent section rotation. */
 	max-width: 92%;
 	left: 50px
 }
@@ -77,16 +77,16 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 		min-width: 140%;
 		left: -40px;
 		background-color: #f2f4f9;
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
+		-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
+		transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	    	z-index: 1041;
 		color: #212529;
 		position: relative
 	}
 
 	.resetTextRotation {
-		transform: rotate(0deg) !important;
+		transform: rotate(0deg) !important; /* Controls bottom omnipresent section rotation. */
 		max-width: 70%
 	}
 }
