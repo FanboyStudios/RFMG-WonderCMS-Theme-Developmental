@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	position: relative;
-	/* box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset; */ /* Controls a light vignette effect on the whole site? */
+	/* box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset; */ /* Controls a light vignette effect on the whole site. */
 	color: #fff;
 	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial; /* Controls font preferences. */
 	background: #000032; /* Controls main solid background color */
@@ -38,9 +38,9 @@ h1 {font-size: 5rem !important}
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
-	color: #ffffff;
+	color: #ffb600; /* Controls navigation bar text color. */
 	background: none;
-	border-bottom: 1px solid #a5d5ff
+	border-bottom: 4px solid #000032 /* Controls navigation bar link underline. */
 }
 
 .footer {
