@@ -1,7 +1,7 @@
 html, body {
 	height: 100%;
 	position: relative;
-	box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset;
+	/* box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset; */ /* Controls a light vignette effect on the whole site? */
 	color: #fff;
 	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial; /* Controls font preferences. */
 	background: #000032; /* Controls main solid background color */
