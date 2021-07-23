@@ -22,7 +22,7 @@ h1 {font-size: 5rem !important}
 .padding40 {padding: 40px}
 .navbar-default .navbar-toggle {border: 0}
 .navbar-light .navbar-nav .nav-link { color: #dfdfdf}
-.navbar-light .navbar-brand, .navbar-light:hover .navbar-brand:hover { color: #fff}
+.navbar-light .navbar-brand, .navbar-light:hover .navbar-brand:hover { color: #ffb600} /* Controls site title color. */
 .nav li > a { padding: 20px}
 
 .navbar li {
@@ -33,14 +33,14 @@ h1 {font-size: 5rem !important}
 
 .navbar, .navbar-collapse {
 	border: 0;
-	background: none;
+	background: #ffb600; /* Controls navigation bar background color? */
 	padding-top: 10px
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
 	color: #ffb600; /* Controls navigation bar text color. */
 	background: none;
-	border-bottom: 4px solid #000032 /* Controls navigation bar link underline. */
+	border-bottom: 2px solid #000032 /* Controls navigation bar link underline. */
 }
 
 .footer {
