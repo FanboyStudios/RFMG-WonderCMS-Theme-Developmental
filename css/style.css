@@ -26,7 +26,7 @@ h1 {font-size: 5rem !important}
 .nav li > a { padding: 20px}
 
 .navbar li {
-	font-size: 16px;
+	font-size: 18px; /* Controls navigation bar link text size. */
 	text-transform: small-caps;
 	margin-right: 25px
 }
@@ -38,14 +38,14 @@ h1 {font-size: 5rem !important}
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
-	color: #4D4D70; /* Controls navigation bar highlighted link text color. */
-	background: none; /* Controls navigation bar link text background color. */
-	border-bottom: 2px solid #4D4D70 /* Controls navigation bar link text underline. */
+	color: #4D4D70; /* Controls navigation bar selected link text color. */
+	background: none; /* Controls navigation bar selected link text background color. */
+	border-bottom: 4px solid #4D4D70 /* Controls navigation bar selected link text underline. */
 }
 
 .footer {
 	color: #ffb600; /* Controls bottom footer default text color. */
-	font-size: 14px; /* Controls bottom footer default text size. */
+	font-size: 16px; /* Controls bottom footer default text size. */
 	padding: 20px
 }
 
