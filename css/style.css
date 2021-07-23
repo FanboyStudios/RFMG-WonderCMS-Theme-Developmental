@@ -14,7 +14,7 @@ html, body {
 }
 
 a, a:hover, a:active {
-	color: #bfe1ff
+	color: #FFDB80 /* Controls link color. */
 }
 
 .h-05 {height: 0.5% !important}
@@ -39,7 +39,7 @@ h1 {font-size: 5rem !important}
 
 ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
 	color: #ffb600; /* Controls navigation bar text color. */
-	background: none;
+	background: none; /* Controls navigation bar link background color? */
 	border-bottom: 2px solid #000032 /* Controls navigation bar link underline. */
 }
 
@@ -53,12 +53,12 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 	min-height: 110%;
 	min-width: 110%;
 	left: -50px;
-	background-color: #f2f4f9;
+	background-color: #f2f4f9; /* Controls bottom omnipresent section background color. */
 	-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	z-index: 1041;
-	color: #212529;
+	color: #212529; /* Controls bottom omnipresent section text color. */
 	position: relative
 }
 
@@ -76,12 +76,12 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 		min-height: 80%;
 		min-width: 140%;
 		left: -40px;
-		background-color: #f2f4f9;
+		background-color: #f2f4f9; /* Controls bottom omnipresent section background color. */
 		-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 		-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 		transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	    	z-index: 1041;
-		color: #212529;
+		color: #212529; /* Controls bottom omnipresent section text color. */
 		position: relative
 	}
 
