@@ -2,7 +2,7 @@ html, body {
 	height: 100%;
 	position: relative;
 	/* box-shadow: 0 0 200px rgba(0, 0, 0, 0.25) inset; */ /* Controls a light vignette effect on the whole site. */
-	color: #fff;
+	color: #ffb600; /* Controls body text color. */
 	font-family: "Product Sans", Google Sans, Poppins, Roboto, SF Pro Text, SF Pro Display, Verdana, Tahoma, Helvetica, Calibri, Arial; /* Controls font preferences. */
 	background: #000032; /* Controls main solid background color */
 	/* background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%); */ /* Controls main gradient background. */
@@ -14,15 +14,15 @@ html, body {
 }
 
 a, a:hover, a:active {
-	color: #FFDB80 /* Controls link color. */
+	color: #FFDB80 /* Controls body text link color. */
 }
 
 .h-05 {height: 0.5% !important}
 h1 {font-size: 5rem !important}
 .padding40 {padding: 40px}
 .navbar-default .navbar-toggle {border: 0}
-.navbar-light .navbar-nav .nav-link { color: #000032} /* Controls navigation bar text color. */
-.navbar-light .navbar-brand, .navbar-light:hover .navbar-brand:hover { color: #ffb600} /* Controls site title color. */
+.navbar-light .navbar-nav .nav-link { color: #000032} /* Controls navigation bar link text color. */
+.navbar-light .navbar-brand, .navbar-light:hover .navbar-brand:hover { color: #000032} /* Controls site title color. */
 .nav li > a { padding: 20px}
 
 .navbar li {
@@ -38,9 +38,9 @@ h1 {font-size: 5rem !important}
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
-	color: #7F3888; /* Controls navigation bar text color? */
-	background: none; /* Controls navigation bar link background color? */
-	border-bottom: 2px solid #000032 /* Controls navigation bar link underline. */
+	color: #4D4D70; /* Controls navigation bar highlighted link text color. */
+	background: none; /* Controls navigation bar link text background color. */
+	border-bottom: 2px solid #4D4D70 /* Controls navigation bar link text underline. */
 }
 
 .footer {
@@ -53,12 +53,12 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 	min-height: 110%;
 	min-width: 110%;
 	left: -50px;
-	background-color: #000032; /* Controls bottom omnipresent section background color. */
+	background-color: #ffb600; /* Controls bottom omnipresent section background color. */
 	-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	z-index: 1041;
-	color: #ffb600; /* Controls bottom omnipresent section text color. */
+	color: #000032; /* Controls bottom omnipresent section text color. */
 	position: relative
 }
 
@@ -76,12 +76,12 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 		min-height: 80%;
 		min-width: 140%;
 		left: -40px;
-		background-color: #000032; /* Controls bottom omnipresent section background color. */
+		background-color: #ffb600; /* Controls bottom omnipresent section background color. */
 		-webkit-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 		-ms-transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 		transform: rotate(0deg); /* Controls bottom omnipresent section rotation. */
 	    	z-index: 1041;
-		color: #ffb600; /* Controls bottom omnipresent section text color. */
+		color: #000032; /* Controls bottom omnipresent section text color. */
 		position: relative
 	}
 
