@@ -3,7 +3,7 @@ RFMG WonderCMS Theme - Developmental Version
 
 ## Features
 1. Responsive Design
-2. Contact Form Plugin Pre-Integrated
+2. Contact Form Plugin Pre-Integrated (Just uncomment the specified code in theme.php after installing the plugin.)
 
 ## How to use
 1. Login to your WonderCMS website.

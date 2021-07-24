@@ -1,5 +1,5 @@
 RFMG WonderCMS Theme - Developmental Version
 
-Contact Form Plugin is pre-integrated. Just install it and edit your config to use!
+Contact Form Plugin is pre-integrated. Just install it, uncomment the specified code in theme.php, and edit your config to use!
 
 Works only with WonderCMS 3.0.8 and higher.

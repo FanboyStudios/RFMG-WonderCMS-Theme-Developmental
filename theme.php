@@ -68,7 +68,9 @@
 
 		<div class="h-05"></div>
 
-		<?php echo contact_form(); ?>
+
+		<?php # echo contact_form(); # /* Remove the # signs from earlier in this line after install Contact Form Plugin. */ ?>
+
 
 		<section class="container-fluid mt-5 mb-5 flex-grow">
 			<div class="row customBackground">
