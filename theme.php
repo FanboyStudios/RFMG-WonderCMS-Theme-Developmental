@@ -73,6 +73,8 @@
 				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
 					<?= $Wcms->block('subside') ?>
 
+<?php echo contact_form(); ?> /* The Contact Form plugin required to use this. You just need to install it from the "Plugins" menu, and edit your config file in the plugin folder. No additional steps needed!*/
+
 				</div>
 			</div>
 		</section>

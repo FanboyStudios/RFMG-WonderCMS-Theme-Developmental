@@ -1,6 +1,10 @@
 # RFMG-WonderCMS-Theme-Developmental
 RFMG WonderCMS Theme - Developmental Version
 
+## Features
+1. Responsive Design
+2. Contact Form Plugin Pre-Integrated
+
 ## How to use
 1. Login to your WonderCMS website.
 2. Click "Settings" then click "Themes".
