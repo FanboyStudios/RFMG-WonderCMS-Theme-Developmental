@@ -68,12 +68,12 @@
 
 		<div class="h-05"></div>
 
+		<?php echo contact_form(); ?>
+
 		<section class="container-fluid mt-5 mb-5 flex-grow">
 			<div class="row customBackground">
 				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
 					<?= $Wcms->block('subside') ?>
-
-<?php echo contact_form(); ?>
 
 				</div>
 			</div>
