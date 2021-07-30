@@ -53,6 +53,26 @@ ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.act
 	padding: 20px
 }
 
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .customBackground {
 	min-height: 110%;
 	min-width: 110%;

@@ -19,6 +19,13 @@ RFMG WonderCMS Theme - Developmental Version
 4. If there's any updates, there will be a button to update the theme for you to click.
 5. Click the update button and the theme will be updated... and automatically applied if the theme is set.
 
+## Responsive YouTube Embeds
+```
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/klZNNUz4wPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
 ### How to fix your site if it breaks due to your modifications to this theme. (At least most of the time.)
 0. YOU WILL LOSE SITE DATA, WHICH MAY INCLUDE YOUR POSTS, PICTURES, AND OTHER IMPORTANT FILES. MAKE A BACKUP!
 1. Delete the "cache.json" and "database.js" files from your WonderCMS "data" folder.
