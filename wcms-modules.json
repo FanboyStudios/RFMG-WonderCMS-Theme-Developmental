@@ -1,7 +1,7 @@
 {
     "version": 1,
     "themes": {
-        "theme-name": {
+        "RFMG-WonderCMS-Theme-Developmental": {
             "name": "RFMG-WonderCMS-Theme-Developmental",
             "repo": "https://github.com/FanboyStudios/RFMG-WonderCMS-Theme-Developmental",
             "zip": "https://github.com/FanboyStudios/RFMG-WonderCMS-Theme-Developmental/archive/refs/heads/master.zip",
