@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "themes": {
+        "theme-name": {
+            "name": "RFMG-WonderCMS-Theme-Developmental",
+            "repo": "https://github.com/FanboyStudios/RFMG-WonderCMS-Theme-Developmental",
+            "zip": "https://github.com/FanboyStudios/RFMG-WonderCMS-Theme-Developmental/archive/refs/heads/master.zip",
+            "summary": "RFMG WonderCMS Theme - Developmental Version",
+            "version": "0.1.9",
+            "image": "https://github.com/FanboyStudios/RFMG-WonderCMS-Theme-Developmental/raw/master/preview.jpg"
+        }
+    }
+}
